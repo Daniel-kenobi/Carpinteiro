@@ -1,1 +1,226 @@
 /* You can add global styles to this file, and also import other style files */
+
+$preto: #111111;
+$cinza: #939393;
+$marrom: #321800;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: white;
+}
+
+.marrom {
+    background-color: $marrom;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: $marrom;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: $cinza;
+}
+
+
+/*Cores de texto*/
+
+.txt-preto {
+    color: $preto !important;
+}
+
+.txt-cinza {
+    color: $cinza !important;
+}
+
+.txt-branco {
+    color: white !important;
+}
+
+
+/*Tamanho de texto*/
+
+.sz14 {
+    font-size: 14px;
+}
+
+.sz18 {
+    font-size: 18px;
+}
+
+.sz24 {
+    font-size: 24px;
+}
+
+.sz28 {
+    font-size: 28px;
+}
+
+.sz32 {
+    font-size: 32px;
+}
+
+.sz52 {
+    font-size: 52px;
+}
+
+.corpo {
+    margin-bottom: 320px;
+}
+
+.btn-preto {
+    background-color: $cinza !important;
+    color: white !important;
+    margin-right: 5px !important;
+    padding: 7px !important;
+    border: 1px solid $preto !important;
+    width: 150px !important;
+}
+
+.btn-preto:hover {
+    transition-duration: 1s;
+    background-color: $preto !important;
+    color: white !important;
+    border: 1px solid $cinza !important;
+}
+
+
+/*Fontes de texto*/
+
+.fnt-anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.fnt-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fnt-arial {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.fnt-pixo {
+    font-family: pixo;
+}
+
+
+/*Borders*/
+
+.border-preto,
+.border-branco,
+.border-cinza {
+    border-width: 2px !important;
+    border-style: solid;
+}
+
+.border-preto {
+    border-color: $preto !important;
+}
+
+.border-branco {
+    border-color: white !important;
+}
+
+.border-branco {
+    border-color: $cinza !important;
+}
+
+.aftr-sz32::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: $preto;
+    display: block;
+    margin: 0 auto;
+}
+
+.aftr-sz32-branco::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.aftr-sz32-cinza::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: $cinza;
+    display: block;
+    margin: 0 auto;
+}
+
+.aftr-sz32::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: $preto;
+    display: block;
+    margin: 0 auto;
+}
+
+.aftr-sz52::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: $preto;
+    display: block;
+    margin: 0 auto;
+}
+
+.paragrafo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+
+/*intendisade*/
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*Cores div*/
+
+.preto {
+    background-color: $preto !important;
+}
+
+.cinza {
+    background-color: $cinza !important;
+}
+
+.branco {
+    background-color: white !important;
+}
+
+
+/*Margin bootstrapless*/
+
+.margin-top-6 {
+    margin-top: 80px !important;
+}
+
+.underline {
+    text-decoration: underline !important;
+}

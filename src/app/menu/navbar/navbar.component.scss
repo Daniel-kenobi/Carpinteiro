@@ -1,0 +1,30 @@
+@font-face {
+    font-family: carpinteiro;
+    src: url("../../../assets/fontes/Carpinteiro.ttf");
+}
+
+.logo-font {
+    font-family: carpinteiro !important;
+    color: white;
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+li,
+ul {
+    display: inline-block !important;
+}
+
+.link {
+    padding: 10px;
+    font-family: "Anton";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.link:hover {
+    transition-duration: .5s;
+    color: #747070;
+}

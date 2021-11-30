@@ -1,0 +1,14 @@
+<div class="container-fluid marrom">
+    <a class="logo-font d-inline-block mt-2" href="javascript:;" routerLink="/">Carpinteiro</a>
+    <ul>
+        <li>
+            <a class="link" href="javascript:;" routerLink="/" [ngClass]="{'txt-cinza': route.url == '/home'}">Home</a>
+        </li>
+        <li>
+            <a class="link" href="javascript:;" routerLink='/contato' [ngClass]="{'txt-cinza': route.url == '/contato'}">Contato</a>
+        </li>
+        <li>
+            <a class="link" href="javascript:;" routerLink="/quem-somos" [ngClass]="{'txt-cinza': route.url == '/quem-somos'}">Quem somos</a>
+        </li>
+    </ul>
+</div>
