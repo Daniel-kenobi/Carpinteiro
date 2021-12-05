@@ -1,27 +1,27 @@
-# Carpinteiro
+<h1>Carpinteiro</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+<p>O Carpinteiro é um site instuitucional (fictício) responsivo, projetado totalmente em <a href="https://github.com/angular/angular-cli" target="_blank">Angular 12</a>, bootstrap e scss. O site é feito de forma a se comprotar muito bem com ambientes mobiles e desktop</p> 
 
-## Development server
+<h2>Como testar</h2>
+<p>Você pode ver como o site se comporta entrando no site do Carpinteiro no <a href="https://daniel-kenobi.github.io/Carpinteiro" target="_blank">GitHub Pages</a>
+<br> 
+Caso deseja subir um servidor de teste, baixe o codigo fonte do projeto, entre no CMD (Windows) e navege até a pasta do projeto onde tem a pastar "src" e digite "ng serve --o --watch" </p>
+  
+<h3>Alguns prints demonstrativos do site</h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p>Home - mobile</p>
+<img src="https://i.ibb.co/Hpv4y11/Home-mobile.jpg" alt="Home-mobile" border="0">
 
-## Code scaffolding
+<p>Contato - mobile</p>
+<img src="https://i.ibb.co/CndFvxb/Contato-mobile.jpg" alt="Contato-mobile" border="0">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p>Home - Desktop</p>
+<img src="https://i.ibb.co/MDzxMnp/Home-desktop.png" alt="Home-desktop" border="0">
 
-## Build
+<p>Home - Desktop</p>
+<img src="https://i.ibb.co/BCBW2PH/Contato-desktop.png" alt="Contato-desktop" border="0">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<p>Site totalmente desenvolvido para fins didáticos e testes de conhecimento</p>
+<p>Daniel-kenobi</p>
